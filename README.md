@@ -8,6 +8,8 @@
 - Run game: `python -m src.main`
 - Run tests: `python -m pytest -q`
 
+When DONE run to get rid of Virtual Enviorment: `deactivate`
+
 ## 2) Controls
 - Fireboy: `A`/`D` move, `W` jump
 - Watergirl: `Left`/`Right` move, `Up` jump
