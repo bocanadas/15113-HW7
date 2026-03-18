@@ -1,0 +1,41 @@
+{
+  "id": "level_01",
+  "world": {
+    "tiles_wide": 24,
+    "tiles_high": 16
+  },
+  "spawns": [
+    { "team": "fire", "x": 2, "y": 13 },
+    { "team": "water", "x": 4, "y": 13 }
+  ],
+  "solids": [
+    { "x": 0, "y": 15, "w": 24, "h": 1 },
+    { "x": 0, "y": 0, "w": 1, "h": 16 },
+    { "x": 23, "y": 0, "w": 1, "h": 16 },
+    { "x": 2, "y": 14, "w": 6, "h": 1 },
+    { "x": 8, "y": 12, "w": 4, "h": 1 },
+    { "x": 13, "y": 10, "w": 4, "h": 1 },
+    { "x": 17, "y": 8, "w": 5, "h": 1 },
+    { "x": 6, "y": 9, "w": 4, "h": 1 },
+    { "x": 3, "y": 7, "w": 4, "h": 1 }
+  ],
+  "hazards": [
+    { "kind": "lava", "x": 8, "y": 15, "w": 5, "h": 1 },
+    { "kind": "water", "x": 13, "y": 15, "w": 5, "h": 1 },
+    { "kind": "slime", "x": 18, "y": 15, "w": 3, "h": 1 }
+  ],
+  "doors": [
+    { "id": "gate_a", "x": 12, "y": 11, "w": 1, "h": 3, "initially_open": false }
+  ],
+  "buttons": [
+    { "id": "button_a", "x": 4, "y": 13, "w": 1, "h": 1, "linked_doors": ["gate_a"] }
+  ],
+  "gems": [
+    { "team": "fire", "x": 6, "y": 6 },
+    { "team": "water", "x": 18, "y": 7 }
+  ],
+  "exits": [
+    { "team": "fire", "x": 20, "y": 7, "w": 1, "h": 1 },
+    { "team": "water", "x": 21, "y": 7, "w": 1, "h": 1 }
+  ]
+}
